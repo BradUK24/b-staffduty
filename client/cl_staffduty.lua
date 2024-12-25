@@ -59,7 +59,7 @@ AddEventHandler('toggleStaffMode', function(isStaffModeEnabled)
         SetPedArmour(playerPed, Config.StaffModeClothing.armorValue)
 
         
-        QBCore.Functions.Notify(Config.Messages.staffModeEnabled, "success")
+        QBCore.Functions.Notify("Staff Mode enabled. You are ready!", "success")
     else
         if not isStaffModeActive then
             QBCore.Functions.Notify("Staff mode is not enabled!", "error")
@@ -86,6 +86,6 @@ AddEventHandler('toggleStaffMode', function(isStaffModeEnabled)
         SetPedArmour(playerPed, 0)
 
 
-        QBCore.Functions.Notify(Config.Messages.staffModeDisabled, "error")
+        QBCore.Functions.Notify("Staff Mode disabled. Welcome back!", "error")
     end
 end)

@@ -22,7 +22,6 @@ RegisterCommand('staffon', function(source, args, rawCommand)
 
         onDutyTimestamps[source] = currentTime
         TriggerClientEvent('toggleStaffMode', source, true)
-        TriggerClientEvent('QBCore:Notify', source, 'Staff mode enabled.', 'success')
     end)
 end)
 
@@ -49,6 +48,5 @@ RegisterCommand('staffoff', function(source, args, rawCommand)
 
         onDutyTimestamps[source] = nil
         TriggerClientEvent('toggleStaffMode', source, false)
-        TriggerClientEvent('QBCore:Notify', source, 'Staff mode disabled.', 'success')
     end)
 end)

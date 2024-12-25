@@ -19,9 +19,3 @@ Config.StaffModeClothing = {
     },
     armorValue = 100
 }
-
-
-Config.Messages = {
-    staffModeEnabled = "Staff Mode enabled. You are ready!",
-    staffModeDisabled = "Staff Mode disabled. Welcome back!"
-}
