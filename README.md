@@ -1,4 +1,4 @@
-# Simple staff duty script with clothing options and a discord logging system
+# Simple QBCore staff duty script with clothing options and a discord logging system
 
 
 # Go to Documentation for how to install
